@@ -56,3 +56,6 @@ a{
 #t_contacto{
     margin: 5px;
 }
+nav {
+    display: flex;
+}
