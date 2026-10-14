@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Google Sans Flex", sans-serif;
+}
+
+header {
+    min-height: 100px;
+    background-color: rgb(0, 0, 0);
+}
+
+body {
+    background-color: brown;
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    min-height: 100px;
+    color: white;
+    text-align: center;
+}
+
+.link_paginas {
+    color: aliceblue;
+}
+
+section {
+    background-color: rgba(255, 0, 128, 0.459);
+    color: white;
+    padding: 30px;
+}
+
+h2 {
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+#sinopsis {
+    margin: 30px;
+}
+
+#reparto {
+    margin: 30px;
+}
+
+#curiosidadesypremios {
+    margin: 30px;
+}
+
+li {
+    max-width: 30%;
+    margin: 5px;
+}
+
+.parrafosinfo {
+    max-width: 20%;
+
+}
+
+article {
+    padding: 30px;
+}
+.actores{
+    text-align: center;
+    background-color: rgb(32, 32, 32);
+    width: 240px;
+    height: 300px;
+    margin: 60px;
+    padding: 10px;
+}
+.iconos{
+    max-width: 50px;
+    max-height: 50px;
+}
+#contacto{
+    padding: 10px;
+}
+#avisolegal{
+    padding: 10px;
+}
+#t_contacto{
+    margin: 5px;
+}
+a{
+    color: white;
+}
