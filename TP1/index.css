@@ -45,6 +45,7 @@ footer {
 #avisolegal{
     max-width: 700px;
     right: 40px;
+    position: static;
 }
 
 #portada {
