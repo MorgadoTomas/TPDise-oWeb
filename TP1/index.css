@@ -37,6 +37,13 @@ footer {
     color: aliceblue;
 
 }
+#contacto {
+    display: flex;
+
+}
+#avisolegal{
+    max-width: 700px;
+}
 
 #portada {
     margin: 40px;
