@@ -38,7 +38,7 @@ footer {
 
 }
 #contacto {
-    display: flex;
+    display: inline-block;
 
 }
 #avisolegal{
