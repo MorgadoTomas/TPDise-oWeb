@@ -38,6 +38,7 @@ footer {
 
 .link_paginas {
     color: aliceblue;
+    margin: 20px;
 
 }
 #contacto {
@@ -70,4 +71,7 @@ a{
 }
 nav {
     display: flex;
+}
+strong{
+    margin: 20px;
 }
