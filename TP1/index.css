@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: "Google Sans Flex", sans-serif;
+    color: white;
 }
 
 
@@ -13,67 +14,162 @@ header {
 }
 
 body {
-    background-color: brown;
-    min-height: 100vh;  display: flex; flex-direction: column; }
-    
-footer {
-    background-color: rgb(0, 0, 0);
-    min-height: 100px;
-    color: white;
-    text-align: center;
+
+    min-height: 100vh;
     display: flex;
-    padding: 30px;
+    flex-direction: column;
 }
+
+
+
+
 #descripcion {
     max-width: 700px;
 
 }
 
-#seccion_afiche {
-    background-color: rgb(255, 255, 255);
-    padding: 40px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-
-}
 
 .link_paginas {
     color: aliceblue;
     margin: 20px;
+    text-decoration: none;
 
 }
+
 #contacto {
     display: inline-block;
 
 }
-#avisolegal{
+
+#avisolegal {
     max-width: 700px;
     right: 40px;
 }
 
-#portada {
-    margin: 40px;
-}
-a{
+#portada {}
+
+a {
     color: white;
+    text-decoration: none;
 }
-.iconos{
-    max-width: 50px;
-    max-height: 50px;
+
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    padding: 0px 0px 2px 8px;
+    margin: 25px 0px 0px 0px;
+    
+
+    li {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 15px;
+        list-style: none;
+        
+
+
+        h2 {
+            margin: 0;
+        }
+
+        p {
+            padding: 10px;
+        }
+    }
+
+    li::before {
+        content: "";
+        display: block;
+        width: 8px;
+        height: 8px;
+        background-color: #ff0867;
+        border-radius: 50%;
+        margin: 5px;
+        position: relative;
+        left: -8px;
+
+
+    }
+
 }
-#contacto{
+
+#textoyiframe {
+    display: flex;
+    align-items: start;
+    
+}
+
+
+
+
+
+#info {
+    background-color: rgb(53, 53, 53);
+    width: auto;
+    max-width: 1060px;
+    height: 820.667px;
+    display: flex;
+    flex-direction: row;
+
+    article {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    img{
+        object-fit: cover;
+    }
+
+        h1 {
+
+            margin: 20px 0px -15px 9px;
+        }
+
+
+}
+
+
+#avisolegal {
     padding: 10px;
 }
-#avisolegal{
-    padding: 10px;
-}
-#t_contacto{
-    margin: 5px;
-}
+
+
 nav {
     display: flex;
 }
-strong{
+
+strong {
     margin: 20px;
+}
+
+
+
+#seccion_afiche {
+    padding: 40px;
+    min-height: 70vh;
+    text-align: center;
+    background: linear-gradient(-45deg, #ff0867, #23a6d5, #ff0867, #23a6d5);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
 }

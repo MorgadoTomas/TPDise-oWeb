@@ -1,0 +1,256 @@
+footer {
+    background-color: rgb(0, 0, 0);
+    min-height: 100px;
+    height: auto;
+    color: white;
+    text-align: center;
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+    position: static;
+    align-items: center;
+    z-index: 100;
+
+
+}
+
+.fondodegradado {
+    padding: 30px;
+    background: linear-gradient(-45deg, #ff0867, #23a6d5, #ff0867, #23a6d5);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+
+
+body {
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.seccionesfondo {
+    background-color: #383838;
+    border-radius: 25px;
+}
+
+.h1-exteriores {
+    margin: -8px 0px;
+    font-size: 60.72px;
+    position: relative;
+    left: 25px;
+    color: #ffffff;
+
+}
+
+.h2-exteriores {
+    font-weight: 300;
+    font-size: 36.74px;
+    position: relative;
+    left: 25px;
+    color: #ffffff;
+
+}
+
+.h1yh2exteriores::before {
+    content: "";
+    display: block;
+    width: 2px;
+    height: 70px;
+    background-color: #ff0867;
+    margin: 5px;
+    position: absolute;
+
+
+
+}
+
+.items-footer {
+    padding: 20px;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+    text-shadow: 0 0 0px #414141;
+
+}
+
+.items-footer:hover {
+    color: #414141;
+    text-shadow: 0 0 8px #414141;
+
+
+}
+
+
+.link_logo {
+    margin: 30px;
+    position: relative;
+    display: inline-block;
+    padding: 25px 30px;
+    color: #f40398;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    margin: 30px;
+
+}
+
+.link_logo:hover {
+    background: #f40398;
+    color: #050801;
+    box-shadow: 0 0 5px #f40398,
+        0 0 25px #f40398,
+        0 0 50px #f40398,
+        0 0 200px #f40398;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+}
+
+.link_paginas {
+    position: relative;
+    display: inline-block;
+    padding: 25px 30px;
+    color: #03e9f4;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    margin: 30px;
+    border: solid 2px;
+    border-color: black;
+
+}
+
+.link_paginas:hover {
+    background: #03e9f4;
+    color: #050801;
+    box-shadow: 0 0 5px #03e9f4,
+        0 0 25px #03e9f4,
+        0 0 50px #03e9f4,
+        0 0 200px #03e9f4;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+}
+
+#avisolegal {
+    max-width: 700px;
+    right: 40px;
+}
+
+
+#contacto {
+    padding: 20px;
+    border: solid 2px;
+    border-radius: 20px;
+    border-color: #f40398;
+
+}
+
+#avisolegal p {
+    padding: 10px;
+    max-width: 600  px;
+    color: #9b9b9b;
+}
+
+#t_contacto {
+   letter-spacing: 1.2px;
+   
+    
+}
+
+nav {
+    display: flex;
+}
+
+header {
+    min-height: 100px;
+    background-color: rgb(0, 0, 0);
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 101    ;
+
+
+
+}
+
+#soporte {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    
+}
+
+
+#soporte::after {
+        content: "";
+        display: block;
+        width: 2px;
+        height: 140px;
+        background-color: #ff0867;
+        margin: 0px;
+        position: absolute;
+       bottom: 160px;
+
+    }
+
+strong {
+    margin: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Google Sans Flex", sans-serif;
+    color: white;
+}
+
+.contenedor-redes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+    max-width: 600px;
+    padding: 10px;
+}
+
+.contenedor-redes i {
+    width: 56px;
+    height: 56px;
+    font-size: 24px;
+    color: #ffffff;
+    background: #1f1f1f;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contenedor-redes i:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 12px #f40398;
+}

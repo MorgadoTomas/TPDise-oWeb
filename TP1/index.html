@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- https://tp1disenowebmorgadotomas.vercel.app/ -->
- <!-- shift + alt + a para comentar lo seleccionado o ctrl } para comentar la linea -->
+
+<!-- mi app en vercel https://tp1disenowebmorgadotomas.vercel.app/ -->
+<!-- ctrl k y ctrl c apra comentar ctrl k ctrl u apra descomentar -->
+<!-- shift alt a para comentar selecciones -->
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,14 +16,17 @@
         rel="stylesheet">
     <link rel="stylesheet" href="index.css">
     <link rel="shortcut icon" href="/Imgs/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="footer._header_body.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 
 <body>
     <header>
-
         <nav>
-            <strong><a class="link_paginas" href=""><img src="/Imgs/logo.png" alt="Logo del cine" width="90px" ,
-                        height="90px"></a>
+            <a class="link_logo" href=""><img src="/Imgs/logo.png" alt="Logo del cine" width="90px" , height="90px"></a>
+        </nav>
+        <nav>
+            <strong>
                 <a class="link_paginas" href="/pelicula.html">Pelicula</a>
                 <a class="link_paginas" href="/produccion.html">Produccion</a>
             </strong>
@@ -31,15 +37,41 @@
 
     <main>
         <section id="seccion_afiche">
-            <h1>HOMBRE GRIS</h1>
+            <article id="info">
 
-            <img src="/Imgs/portadapelicula.webp" alt="Portada de la pelicula" width="500px" id="portada">
+                <img src="/Imgs/portadapelicula.webp" alt="Portada de la pelicula" width="500px" id="portada">
 
-            <p id="descripcion">
-                El Hombre Gris: El asesino encubierto más letal de la CIA descubre oscuros secretos de la agencia y, de
-                la noche a la mañana, se convierte en la presa. Ahora deberá sobrevivir a una implacable cacería mundial
-                liderada por un sádico exagente dispuesto a destruir todo a su paso con tal de eliminarlo.
-            </p>
+                <article id="textoyiframe">
+                    
+                    <ul>
+                        <h1 id="titulo">HOMBRE GRIS</h1>
+
+                        <li>
+                            <h2>Direccion</h2> <p>Anthony Russo - Joe Russo</p>
+                        </li>
+                      <li>
+                            <h2>Escritura</h2> <p>Joe Russo - Christopher Markus - Stephen McFeely</p>
+                        </li>
+                       <li>
+                            <h2>Estrellas</h2> <p>Ryan Gosling - Chris Evans - Ana de Armas</p>
+                        </li>
+                       <li>
+                            <h2>Genero</h2> <p>Accion - Misterio - Thriller</p>
+                        </li>
+                        <li>
+                            <h2>Fecha de lanzamiento</h2> <p>22 de julio de 2022</p>
+                        </li>
+                        <li>
+                            <h2>Productoras</h2> <p>AGBO - Netflix - Roth Films </p>
+                        </li>
+                    </ul>
+
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/xlh-BkrXIJs?si=gy7-sBYnThTj5DvL"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </article>
+            </article>
 
         </section>
     </main>
@@ -48,23 +80,26 @@
 
     <footer>
         <article id="contacto">
-            <h1 id="t_contacto">Contacto:</h1>
-            <strong>
-                <img src="/Imgs/whatsapp.png" alt="" class="iconos">
-                <a href="https://wa.me/5492901653777">
-                    Whatsapp
-                </a>
-                <img src="/Imgs/instagram.png" alt="" class="iconos">
-                <a href="https://www.instagram.com/?hl=es-la">
-                    Instagram
-                </a>
-                <img src="/Imgs/facebook.png" alt="" class="iconos">
-                <a href="https://www.facebook.com/?locale=es_LA">
-                    Facebook
-                </a>
-            </strong>
-        </article>
+            <h1 id="t_contacto">Nuestras redes sociales</h1>
+          
+                <article class="contenedor-redes">
 
+                    <i class="fab fa-facebook-f"></i>
+
+                    <i class="fab fa-instagram"></i>
+
+                    <i class="fab fa-whatsapp"></i>
+
+                    <i class="fab fa-tiktok"></i>
+
+                    <i class="fab fa-youtube"></i>
+
+                    <i class="fab fa-x-twitter"></i>
+
+                </article>
+
+            
+        </article>
         <article id="avisolegal">
             <p>Neon Cinema S.R.L. CUIT: 20-46334370-6. Domicilio legal: Tierra del Fuego, Argentina. Exhibidor
                 cinematográfico inscripto ante el INCAA. La comercialización de entradas y productos se encuentra
@@ -73,6 +108,14 @@
                 gratuita. La Agencia de Acceso a la Información Pública es el órgano de control de la Ley N° 25.326.
             </p>
         </article>
+        <article id="soporte">
+            <a href="" class="items-footer">Ayuda</a>
+            <a href="" class="items-footer">Soporte</a>
+            <a href="" class="items-footer">Politica de privacidad</a>
+            <img src="" alt="">
+
+        </article>
+
     </footer>
 </body>
 
