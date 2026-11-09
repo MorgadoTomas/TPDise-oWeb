@@ -47,6 +47,7 @@ body {
 
 .seccionesfondo {
     background-color: #383838;
+    box-shadow: inset 0px 0px 25px 5px black;
     border-radius: 25px;
 }
 
@@ -205,8 +206,7 @@ header {
         background-color: #ff0867;
         margin: 0px;
         position: absolute;
-       bottom: 160px;
-
+    
     }
 
 strong {
