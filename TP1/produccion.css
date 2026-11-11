@@ -1,113 +1,127 @@
+#seccionflex {
+    display: flex;
+    gap: 20px;
+}
 
 
-.fondodegradado{
+.fondodegradado {
     width: 100%;
-     #seccion-curiosidadesdelrodaje{
+
+    #seccion-curiosidadesdelrodaje {
         display: flex;
         flex-direction: column;
         max-width: 40%;
+        gap: 30px;
 
-        #textos-produccionyestudios-columna2{
-            
+
+        #textos-produccionyestudios-columna2 {
+
             display: flex;
 
 
         }
 
-        #textos-curiosidadesdelrodaje{
+        #textos-curiosidadesdelrodaje {
             display: flex;
             flex-direction: column;
 
         }
 
-        #decoracion-textos-curiosidadesdelrodaje{
+        #decoracion-textos-curiosidadesdelrodaje {
             display: flex;
             text-align: center;
             flex-direction: column;
-            #decoracion{
+
+
+            #decoracion {
                 h3 {
-            font-size: 80px;
-            padding: 0 20px;
-            line-height: 60px;
-            position: relative;
-            right: 0;
+                    font-size: 80px;
+                    padding: 0 20px;
+                    line-height: 60px;
+                    position: relative;
+                    right: 0;
 
-        }
+                }
 
-        h4 {
-            padding: 0 20px;
-            font-weight: 300;
-            color: #666666;
-            font-size: 46px;
+                h4 {
+                    padding: 0 20px;
+                    font-weight: 300;
+                    color: #666666;
+                    font-size: 46px;
 
 
-        }
+                }
             }
-        
-            
+
+
         }
     }
-    #seccion-produccionyestudios{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    max-width: 40%;
 
-   
-    
-    #textos-produccionyestudios-columna1{
+    #seccion-produccionyestudios {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        #textos-produccionyestudios{
+        max-width: 40%;
+        
+
+
+
+        #textos-produccionyestudios-columna1 {
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
             justify-content: space-between;
+
+            #textos-produccionyestudios {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+
+            #decoracion-produccionyestudios {
+                display: flex;
+                flex-direction: row;
+
+                h3 {
+                    font-size: 86px;
+                    padding: 20px 0px;
+                    writing-mode: vertical-lr;
+                    transform: rotate(00deg);
+                    letter-spacing: 30px;
+
+
+                }
+
+                h4 {
+                    writing-mode: vertical-rl;
+                    font-weight: 300;
+                    padding: 20px 0px;
+                    color: #666666;
+                    font-size: 41px;
+                    transform: rotate(00deg);
+
+
+                }
+
+            }
+
+            #decoracion-produccionyestudios::after {
+                content: "";
+                display: block;
+                width: 2px;
+                height: 900px;
+                background-color: #ff0867;
+                margin: 5px;
+                position: absolute;
+
+            }
+
         }
-      
-         #decoracion-produccionyestudios{
-        display: flex;
-        flex-direction: row;
-        
-        h3 {
-            font-size: 86px;
-            padding: 20px 0px;
-            writing-mode: vertical-lr;
-            transform: rotate(00deg);
-            letter-spacing: 30px;
 
 
-        }
-
-        h4 {
-            writing-mode: vertical-rl;
-            font-weight: 300;
-            padding: 20px 0px;
-            color: #666666;
-            font-size: 41px;
-            transform: rotate(00deg);
-
-
-        }
 
     }
-    #decoracion-produccionyestudios::after{
-        content: "";
-        display: block;
-        width: 2px;
-        height: 900px;
-        background-color: #ff0867;
-        margin: 5px;
-        position: absolute;
-        
-    }
-
-    }
-
-   
-
 }
-}
+
 
 
 
