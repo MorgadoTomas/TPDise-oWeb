@@ -51,6 +51,10 @@ body {
     border-radius: 25px;
 }
 
+.h1yh2exteriores{
+    margin: 1% 0%;
+}
+
 .h1-exteriores {
     margin: -8px 0px;
     font-size: 60.72px;
@@ -73,11 +77,10 @@ body {
     content: "";
     display: block;
     width: 2px;
-    height: 70px;
+    height: 65px;
     background-color: #ff0867;
     margin: 5px;
     position: absolute;
-
 
 
 }
@@ -198,16 +201,7 @@ header {
 }
 
 
-#soporte::after {
-        content: "";
-        display: block;
-        width: 2px;
-        height: 140px;
-        background-color: #ff0867;
-        margin: 0px;
-        position: absolute;
-    
-    }
+
 
 strong {
     margin: 20px;

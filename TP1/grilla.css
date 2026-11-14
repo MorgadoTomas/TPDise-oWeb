@@ -1,0 +1,538 @@
+ 
+ 
+ .grilla {
+        width: 100%;
+        
+        display: grid;
+        height: auto;
+        gap: 60px;
+        grid-template-columns: 3fr 1fr 5fr;
+        grid-template-rows: auto auto auto auto auto;
+        grid-template-areas:
+            "uno uno dos"
+            "tres tres dos"
+            "tres tres dos"
+            
+            "cinco seis seis"
+            "cinco cuatro cuatro"
+        ;
+
+    }
+
+    #uno {
+        grid-area: uno;
+        background-color: aqua;
+        
+
+    }
+
+    #dos {
+        grid-area: dos;
+        background-color: blue;
+    }
+
+    #tres {
+        grid-area: tres;
+        background-color: green;
+    }
+
+    #cuatro {
+        grid-area: cuatro;
+        background-color: blueviolet;
+        
+    }
+
+    #cinco {
+        grid-area: cinco;
+        background-color: red;
+        
+    }
+    #seis {
+        grid-area: seis;
+        background-color: orange;
+        
+    }
+
+
+
+#seccion-sinopsis {
+    display: flex;
+    
+    min-width: 50%;
+    justify-content: space-between;
+    flex-direction: row;
+    height: auto;
+
+    #decoracion-sinopsis {
+        display: flex;
+        flex-direction: column;
+        min-width: 50%;
+        text-align: center;
+
+        h3 {
+            font-size: 80px;
+            padding: 0 20px;
+            line-height: 60px;
+            position: relative;
+            right: 0;
+
+        }
+
+        h4 {
+            padding: 0 20px;
+            font-weight: 300;
+            color: #666666;
+            font-size: 46px;
+
+
+        }
+
+        img {
+            height: 60%;
+            width: auto;
+            object-fit: cover;
+            padding: 0;
+            margin: 0px 0px 25px 0px;
+        }
+    }
+
+    #decoracion-sinopsis::after {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 2px;
+        background-color: #ff0867;
+        margin: 20px auto;
+
+    }
+
+    #textos-sinopsis {
+        padding: 0px 70px;
+        margin: -20px 0px;
+        min-width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+
+    }
+
+    #textos-sinopsis::before {
+        content: "";
+        display: block;
+        width: 2px;
+        height: 70px;
+        align-items: center;
+
+        background-color: #ff0867;
+        margin: 5px;
+        position: absolute;
+        left: 685px;
+
+
+    }
+
+
+}
+
+
+#seccion-infoycontexto {
+    display: flex;
+    
+    min-width: 50%;
+    flex-direction: row;
+    justify-content: space-between;
+    height: auto;
+
+    #decoracion-infoycontexto {
+        display: flex;
+        flex-direction: row;
+        min-width: 50%;
+        text-align: center;
+
+
+        img {
+            max-height: 100%;
+            min-height: 100%;
+            object-fit: cover;
+            width: 300px;
+            padding: 0;
+            margin: 0px 30px 0px 0px;
+        }
+
+        h3 {
+            font-size: 177px;
+            padding: 20px 0px;
+            writing-mode: vertical-lr;
+            transform: rotate(180deg);
+            line-height: 100px;
+
+
+        }
+
+        h4 {
+            writing-mode: vertical-lr;
+            font-weight: 300;
+            padding: 20px 0px;
+            color: #666666;
+            font-size: 55px;
+            transform: rotate(180deg);
+
+
+        }
+
+
+    }
+
+    #textos-infoycontexto::before {
+        content: "";
+        display: block;
+        width: 2px;
+        height: 550px;
+        background-color: #ff0867;
+        position: absolute;
+        align-items: center;
+        left: 592px;
+
+
+    }
+
+    #textos-infoycontexto {
+        padding: 0px 20px;
+        margin: 20px 0px;
+        min-width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        justify-content: center;
+
+    }
+}
+
+
+
+
+#seccion-actoresinvolucrados {
+    display: flex;
+   
+    min-width: 50%;
+    justify-content: space-between;
+    flex-direction: row;
+    height: auto;
+    padding: 40px;
+    
+
+    #columna-actores-1 {
+        article{
+             margin: 30px;
+        }
+        
+
+        img {
+            width: 200px;
+            height: auto;
+
+
+        }
+
+        li {
+            display: flex;
+            flex-direction: column;
+            list-style: none;
+            position: relative;
+           
+
+            h2 {
+                font-size: 40px;
+            }
+
+        }
+
+        li::before {
+            content: "";
+            display: block;
+            width: 2px;
+            height: 8px;
+            background-color: #ff0867;
+            margin: 5px;
+            position: absolute;
+
+        }
+
+    }
+
+    #columna-actores-2 {
+        article{
+             margin: 30px;
+        }
+        img {
+            width: 200px;
+            height: auto;
+
+        }
+
+        li {
+            display: flex;
+            flex-direction: column;
+            list-style: none;
+
+            h2 {
+                font-size: 40px;
+            }
+
+        }
+
+        li::before {
+            content: "";
+            display: block;
+            width: 2px;
+            height: 8px;
+            background-color: #ff0867;
+            margin: 5px;
+            position: absolute;
+
+
+        }
+
+    }
+
+    #columna-actores-2::before {
+        content: "";
+        display: block;
+        width: 2px;
+        height: 100%;
+        background-color: #ff0867;
+        margin: 5px;
+        position: absolute;
+
+
+    }
+
+}
+
+
+
+
+#seccion-analisiseimpacto {
+    display: flex;
+    
+    min-width: 70%;
+
+    flex-direction: row;
+    height: auto;
+    justify-content: right;
+
+    #decoracion-analisiseimpacto {
+        padding: 0;
+        display: flex;
+        justify-content: right;
+
+        img {
+            height: 100%;
+            object-fit: cover;
+
+        }
+
+    }
+
+    #textos-analisiseimpacto {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: right;
+        margin: 25px;
+    }
+
+
+
+}
+
+
+
+#seccion-curiosidadesypremios {
+    display: flex;
+    
+    min-width: 30%;
+    min-height: 50%;
+   
+
+    flex-direction: row;
+
+    justify-content: space-between;
+    padding: 40px;
+
+    #decoracion-curiosidadesypremios {
+        display: flex;
+        flex-direction: row;
+        min-width: 30%;
+        text-align: center;
+        justify-content: space-between;
+
+
+
+
+        h3 {
+            font-size: 89px;
+            padding: 20px 0px;
+            writing-mode: vertical-lr;
+            transform: rotate(00deg);
+            letter-spacing: 30px;
+
+
+        }
+
+        h4 {
+            writing-mode: vertical-lr;
+            font-weight: 300;
+            padding: 20px 0px;
+            color: #666666;
+            font-size: 77px;
+            transform: rotate(00deg);
+
+
+        }
+
+    }
+
+    #decoracion-curiosidadesypremios::after {
+        content: "";
+        display: block;
+        width: 2px;
+        height: 900px;
+        background-color: #ff0867;
+        margin: 5px;
+        position: absolute;
+
+    }
+
+    #textos-analisiseimpacto {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: right;
+        margin: 25px;
+    }
+
+
+
+}
+
+
+
+#seccion-premiosnominacionesyrecepcion {
+    display: flex;
+    
+    min-width: 70%;
+    flex-direction: row;
+    height: auto;
+    justify-content: right;
+
+    #imgdecontexto-premiosnominacionesyrecepcion {
+        display: flex;
+        flex-direction: row;
+        min-width: 50%;
+        align-items: center;
+
+        #contexto-premiosnominacionesyrecepcion {
+            padding: 15px;
+            text-align: right;
+            min-width: 50%;
+
+
+            p {
+                min-width: 100%;
+            }
+
+
+        }
+
+        img {
+            max-width: 50%;
+            object-fit: cover;
+        }
+
+    }
+
+    #textos-premiosnominacionesyrecepcion::before {
+        content: "";
+        display: block;
+        width: 2px;
+        height: 90px;
+        background-color: #ff0867;
+        margin: 5px;
+        position: absolute;
+
+
+    }
+
+    #textos-premiosnominacionesyrecepcion {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+
+}
+
+
+
+.espaciados {
+    margin: 50px 0px;
+}
+
+
+h2 {
+    color: white;
+}
+
+.nombre-personaje {
+    font-weight: 100;
+}
+
+
+#sinopsis {
+    margin: 30px;
+}
+
+#reparto {
+    margin: 30px;
+
+}
+
+#curiosidadesypremios {
+    margin: 30px;
+}
+
+
+
+.parrafosinfo {
+    max-width: 20%;
+
+}
+
+
+
+
+
+.actores {
+    display: flex;
+    flex-direction: row;
+
+
+    img {
+        padding: 10px;
+    }
+
+}
+
+
+
+
+
+h3 {
+    font-size: xx-large;
+    font-weight: bold;
+
+}
+
+.parrafosli {}
