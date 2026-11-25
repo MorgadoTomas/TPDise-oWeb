@@ -1,0 +1,46 @@
+@media(width < 1081px) {
+    header {
+        max-height: 75px;
+        background-color: rgb(255, 255, 255);
+        position: sticky;
+        top: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 101;
+    }
+
+    .oculto{
+
+    }
+
+    .vistocel{
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    footer {}
+}

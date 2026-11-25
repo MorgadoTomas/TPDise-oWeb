@@ -1,248 +1,252 @@
+#soporte::after {
+    content: "";
+    display: block;
+    width: 2px;
+    height: 140px;
+    background-color: #ff0867;
+    margin: 0px;
+    position: absolute;
+    top: 122.8%;
 
- 
- #soporte::after {
-        content: "";
-        display: block;
-        width: 2px;
-        height: 140px;
-        background-color: #ff0867;
-        margin: 0px;
-        position: absolute;
-        top: 135.7%;
-        
-   
-    
-    }
 
-  
-  #seccionflex {
-        display: flex;
-        gap: 20px;
-        justify-content: center;
-    }
 
-#titulosup{
-    display: flex;
-    flex-direction: column;
-    
-
-    
 }
 
 
-    #tituloinferior {
-       display: flex;
-    text-align: right; 
-    margin-right: 10%;
+#seccionflex {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+#titulosup {
+    display: flex;
     flex-direction: column;
-
-    }
-
-
-   
-    #tituloinferior::before {
-        content: "";
-        display: block;
-        width: 2px;
-        height: 65px;
-        background-color: #ff0867;
-        margin: 5px;
-        position: absolute;
-        right: 10.2%;
-        top: 116.8%;
-    }
+    margin: 0;
+    margin-left: 8.9%;
+    padding: 0.5%;
 
 
 
+}
 
-    #ultimaseccion {
+
+#tituloinferior {
+    display: flex;
+    text-align: right;
+    margin: 0;
+    margin-right: 10.8%;
+    flex-direction: column;
+    padding: 0.5%;
+
+}
+
+
+
+#tituloinferior::before {
+    content: "";
+    display: block;
+    width: 2px;
+    height: 65px;
+    background-color: #ff0867;
+    margin: 5px;
+    position: absolute;
+    right: 10.3%;
+    top: 107.6%;
+}
+
+
+
+
+#ultimaseccion {
+    display: flex;
+    flex-direction: row;
+    min-height: 61%;
+
+
+
+}
+
+#decoracion::before {
+    content: "";
+    display: block;
+    width: 20.48%;
+    height: 2px;
+    background-color: #ff0867;
+    margin: 20px auto;
+    position: absolute;
+    top: 81%;
+    right: 10.58%;
+
+
+}
+
+#decoracion::after {
+    content: "";
+    display: block;
+    width: 2px;
+    height: 23.6%;
+    background-color: #ff0867;
+    margin: 20px auto;
+    position: absolute;
+    top: 81%;
+    right: 31%;
+
+
+}
+
+
+.fondodegradado {
+    width: 100%;
+
+
+    #seccion-curiosidadesdelrodaje {
         display: flex;
-        flex-direction: row;
-        min-height: 61%;
+        flex-direction: column;
+        max-width: 40%;
+        gap: 20px;
 
 
+        #textos-produccionyestudios-columna2 {
 
-    }
-
-    #decoracion::before {
-        content: "";
-        display: block;
-        width: 20.48%;
-        height: 2px;
-        background-color: #ff0867;
-        margin: 20px auto;
-        position: absolute;
-        top: 88%;
-        right: 10.58%;
-
-
-    }
-
-    #decoracion::after {
-        content: "";
-        display: block;
-        width: 2px;
-        height: 23.6%;
-        background-color: #ff0867;
-        margin: 20px auto;
-        position: absolute;
-        top: 88%;
-        right: 31%;
-
-
-    }
-
-
-    .fondodegradado {
-        width: 100%;
-
-
-        #seccion-curiosidadesdelrodaje {
             display: flex;
-            flex-direction: column;
-            max-width: 40%;
-            gap: 20px;
 
 
-            #textos-produccionyestudios-columna2 {
-
-                display: flex;
-
-
-            }
-
-            #textos-curiosidadesdelrodaje {
-                display: flex;
-                flex-direction: column;
-
-            }
-
-            #decoracion-textos-curiosidadesdelrodaje {
-                display: flex;
-                gap: 14.5%;
-                flex-direction: column;
-
-
-                #decoracion {
-                    display: flex;
-                    text-align: center;
-                    flex-direction: column;
-
-                    h3 {
-                        font-size: 50px;
-                        padding: 0 20px;
-                        line-height: 50px;
-
-
-                    }
-
-                    h4 {
-                        padding: 0 20px;
-                        font-weight: 300;
-                        color: #666666;
-                        font-size: 40px;
-
-
-                    }
-                }
-
-
-            }
         }
 
-        #seccion-produccionyestudios {
+        #textos-curiosidadesdelrodaje {
+            display: flex;
+            flex-direction: column;
+
+        }
+
+        #decoracion-textos-curiosidadesdelrodaje {
+            display: flex;
+            gap: 14.5%;
+            flex-direction: column;
+
+
+            #decoracion {
+                display: flex;
+                text-align: center;
+                flex-direction: column;
+
+                h3 {
+                    font-size: 50px;
+                    padding: 0 20px;
+                    line-height: 50px;
+
+
+                }
+
+                h4 {
+                    padding: 0 20px;
+                    font-weight: 300;
+                    color: #666666;
+                    font-size: 40px;
+
+
+                }
+            }
+
+
+        }
+    }
+
+    #seccion-produccionyestudios {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        max-width: 40%;
+
+
+
+
+        #textos-produccionyestudios-columna1 {
             display: flex;
             flex-direction: row;
             justify-content: space-between;
-            max-width: 40%;
 
+            #textos-produccionyestudios {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
 
-
-
-            #textos-produccionyestudios-columna1 {
+            #decoracion-produccionyestudios {
                 display: flex;
                 flex-direction: row;
-                justify-content: space-between;
-
-                #textos-produccionyestudios {
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: space-between;
-                }
-
-                #decoracion-produccionyestudios {
-                    display: flex;
-                    flex-direction: row;
-                
-
-                    h3 {
-                        font-size: 86px;
-                        padding: 20px 0px;
-                        writing-mode: vertical-lr;
-                        transform: rotate(00deg);
-                        letter-spacing: 30px;
-                        
-                        
 
 
-                    }
-
-                    h4 {
-                        writing-mode: vertical-rl;
-                        font-weight: 300;
-                        padding: 20px 0px;
-                        color: #666666;
-                        font-size: 41px;
-                        transform: rotate(00deg);
-                        
+                h3 {
+                    font-size: 86px;
+                    padding: 20px 0px;
+                    writing-mode: vertical-lr;
+                    transform: rotate(00deg);
+                    letter-spacing: 30px;
 
 
-                    }
+
 
                 }
 
-                #decoracion-produccionyestudios::after {
-                    content: "";
-                    display: block;
-                    width: 2px;
-                    height: 900px;
-                    background-color: #ff0867;
-                    margin: 5px;
-                    position: absolute;
-                    left: 39.2%;
+                h4 {
+                    writing-mode: vertical-rl;
+                    font-weight: 300;
+                    padding: 20px 0px;
+                    color: #666666;
+                    font-size: 41px;
+                    transform: rotate(00deg);
+
+
 
                 }
 
             }
 
+            #decoracion-produccionyestudios::after {
+                content: "";
+                display: block;
+                width: 2px;
+                height: 900px;
+                background-color: #ff0867;
+                margin: 5px;
+                position: absolute;
+                left: 39.2%;
 
+            }
 
         }
-    }
 
 
-
-
-    #datoscuriosos {
-        margin: 30px;
-    }
-
-    #produccionyestudios {
-        margin: 30px;
-    }
-
-
-    h3 {
-        font-size: xx-large;
-        font-weight: bold;
 
     }
+}
 
+
+
+
+#datoscuriosos {
+    margin: 30px;
+}
+
+#produccionyestudios {
+    margin: 30px;
+}
+
+
+h3 {
+    font-size: xx-large;
+    font-weight: bold;
+
+}
+
+article {
+    padding: 30px;
+}
+
+footer {
     article {
-        padding: 30px;
+        padding: 0;
     }
-    footer{
-        article{
-            padding: 0;
-        }
-    }
+}

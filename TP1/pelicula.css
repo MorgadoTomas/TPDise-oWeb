@@ -6,12 +6,12 @@
         background-color: #ff0867;
         margin: 0px;
         position: absolute;
-        top: 281.9%;
-        
-   
-    
+        top: 271.3%;
+
+
+
     }
-    
+
     .grilla {
         width: 100%;
         display: grid;
@@ -23,7 +23,6 @@
             "uno uno dos"
             "tres tres dos"
             "tres tres dos"
-
             "cinco seis seis"
             "cinco cuatro cuatro"
         ;
@@ -32,8 +31,6 @@
 
     #uno {
         grid-area: uno;
-
-
 
     }
 
@@ -49,6 +46,7 @@
 
     #cuatro {
         grid-area: cuatro;
+        
 
 
     }
@@ -60,6 +58,27 @@
 
     #seis {
         grid-area: seis;
+        position: relative;
+
+        #analisiseimpactoarticle {
+            position: absolute;
+            right: 3%;
+            top: -13.5%;
+            text-align: right;
+        }
+
+
+    }
+
+    .h1yh2exteriores#analisiseimpactoarticle::before {
+        content: "";
+        display: block;
+        width: 2px;
+        height: 65px;
+        background-color: #ff0867;
+        margin: 0.17%;
+        position: absolute;
+        right: -5.2%;
 
 
     }
@@ -73,6 +92,8 @@
         flex-direction: row;
         height: auto;
 
+        
+       
         #decoracion-sinopsis {
             display: flex;
             flex-direction: column;
@@ -116,6 +137,9 @@
 
         }
 
+
+
+ 
         #textos-sinopsis {
             padding: 0px 70px;
             margin: -20px 0px;
@@ -123,6 +147,10 @@
             display: flex;
             flex-direction: column;
             justify-content: space-between;
+        
+            
+            
+
 
 
         }
@@ -142,12 +170,12 @@
 
 
         }
-
+ 
 
     }
 
 
-    #textos-curiosidadesypremios{
+    #textos-curiosidadesypremios {
         margin: 3%;
     }
 
@@ -226,7 +254,6 @@
 
 
 
-
     #seccion-actoresinvolucrados {
         display: flex;
 
@@ -269,7 +296,7 @@
                 width: 2px;
                 height: 14.3%;
                 background-color: #ff0867;
-                margin: 5px -3%;
+                margin: 2.1% -3%;
                 position: absolute;
 
             }
@@ -305,8 +332,8 @@
                 background-color: #ff0867;
                 position: absolute;
                 height: 2.6%;
-                margin: 5px -0.37%;
-                
+                margin: 0.17% -0.37%;
+
 
 
             }
@@ -349,7 +376,7 @@
                 height: 100%;
                 object-fit: cover;
                 min-width: 70%;
-                
+
 
             }
 
@@ -383,19 +410,19 @@
             min-width: 30%;
             text-align: center;
             justify-content: space-between;
-            
+
 
 
 
 
             h3 {
                 font-size: 89px;
-                
+
                 writing-mode: vertical-lr;
                 transform: rotate(00deg);
                 letter-spacing: 30px;
-                
-                
+
+
 
 
             }
@@ -406,11 +433,11 @@
                 left: 10%;
                 top: -1%;
                 font-weight: 300;
-               
+
                 color: #666666;
                 font-size: 80px;
                 transform: rotate(00deg);
-                
+
 
 
             }
@@ -426,7 +453,7 @@
             margin: 5px;
             position: absolute;
             top: 155.5%;
-            
+
 
         }
 
@@ -451,14 +478,14 @@
         flex-direction: row;
         height: auto;
         justify-content: right;
-        
+
 
         #imgdecontexto-premiosnominacionesyrecepcion {
             display: flex;
             flex-direction: row;
             min-width: 50%;
             align-items: center;
-            
+
 
             #contexto-premiosnominacionesyrecepcion {
                 padding: 35px;
@@ -501,13 +528,13 @@
             align-items: center;
             min-width: 40%;
             padding: 2%;
-            
+
         }
 
 
     }
- 
-    
+
+
 
 
     .espaciados {
